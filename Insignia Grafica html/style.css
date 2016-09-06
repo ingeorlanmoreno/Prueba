@@ -1,0 +1,52 @@
+.texto-olive {
+	color:olive;
+	font-family: Arial, sans-serif;
+	text-shadow: 1px 1px black;
+}
+.fontsize--small {
+	font-size:1em;
+}
+.fontsize--big {
+	font-size:4em;
+}
+.fontsize--huge {
+	font-size:3em;
+}
+.colorcomp {
+	color:green;
+}
+
+h1 {
+	color:red;
+	}
+
+@media all and (min-width:30em) {
+	h1 {
+		color:yellow;
+	}
+}
+
+//* {
+//	box-sizing:border-box;
+//}
+//ul {
+//	margine:0;
+//	padding:0;
+//}
+//li {
+//	display: inline-block;
+//	list-style-type: none;
+//	width:8%;
+//	background-color:orange;
+//	padding: .5em 1em;
+//}	
+//
+//h2 {
+//	text-transform:uppercase;
+//}
+
+//article {
+//	background-color:#888fa5;
+//	padding: .8em;
+//	margin-bottom:1em;
+//}
